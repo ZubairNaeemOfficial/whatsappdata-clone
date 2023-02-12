@@ -1,7 +1,7 @@
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import React, { useState } from "react";
 import { Massenger } from "./components/massenger";
-import { AccountProvider } from "./content/accountprovider";
+import { AccountProvider } from "./context/accountprovider";
 
 
 

@@ -2,7 +2,7 @@ import { Dialog, Box, Typography, List, ListItem, styled } from "@mui/material";
 import { qrCodeImage } from "../consants/consants";
 import React from "react";
 import { useContext } from "react";
-import { AccountContext } from "../../content/accountprovider";
+import { AccountContext } from "../../context/accountprovider";
 import { GoogleLogin } from "@react-oauth/google";
 import jwtDecode from "jwt-decode";
 import { Adduser } from "../../service/api";

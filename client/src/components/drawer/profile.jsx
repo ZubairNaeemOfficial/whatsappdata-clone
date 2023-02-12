@@ -1,7 +1,7 @@
 import { styled, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useContext } from "react";
-import { AccountContext } from "../../content/accountprovider";
+import { AccountContext } from "../../context/accountprovider";
 let Imagecontainer = styled("Box")`
   display: flex;
   justify-content: center;

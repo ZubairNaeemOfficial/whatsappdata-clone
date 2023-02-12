@@ -1,6 +1,6 @@
 import { styled,Box, Icon } from '@mui/material'
 import React, { useContext } from 'react'
-import { AccountContext } from '../../../content/accountprovider'
+import { AccountContext } from '../../../context/accountprovider'
 import ChatIcon from '@mui/icons-material/Chat';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SettingsBackupRestoreIcon from '@mui/icons-material/SettingsBackupRestore';
